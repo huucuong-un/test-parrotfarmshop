@@ -1,0 +1,241 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inner {
+    width: 50% !important;
+
+    div {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+    }
+    th {
+        text-align: center;
+        background-color: #f57c7c;
+        color: var(--black);
+    }
+    tbody,
+    tr,
+    td {
+        select,
+        option,
+        p {
+            font-size: 1.6rem;
+        }
+    }
+    input {
+        height: 40px;
+        font-size: 1.6rem;
+    }
+}
+.inner-up {
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.title-post {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    background-color: #f57c7c;
+}
+.table-container-add {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0 !important;
+}
+.table-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px !important;
+}
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    button {
+        width: 70%;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 20px;
+        background-color: var(--nav-color);
+        color: var(--black);
+        &:hover {
+            background-color: var(--nav-color);
+            opacity: 0.7;
+        }
+    }
+}
+.select-btn {
+    width: 100%;
+}
+.title-container {
+    width: 100%;
+    background-color: var(--nav-color);
+}
+
+.title-post {
+    padding: 0;
+}
+
+.post-container {
+    padding: 20px 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.post-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-inner {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-width: 450px;
+    min-height: 492px;
+    background-color: #f7ede9;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.scheme-swirl {
+    position: absolute;
+    background-image: url(~/src/Assets/image/Post-background/swirl.svg);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.post-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.post-content {
+    padding: 0 25px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.post-img {
+    overflow: hidden;
+    max-width: 420px;
+    max-height: 420px;
+    img {
+        width: 100%;
+    }
+}
+
+.shop-sale-btn {
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.post-item-link {
+    overflow: hidden;
+}
+
+.post-item-img {
+    width: 100%;
+    padding: 0 60px;
+    overflow: hidden;
+    border-radius: 28% !important;
+}
+.post-info {
+    width: 49.5%;
+}
+.text-area {
+    min-height: 100px !important;
+    padding: 0;
+    overflow: hidden;
+    textarea {
+        min-height: 100px !important;
+        overflow: hidden;
+        padding: 2%;
+        font-size: 16px;
+    }
+}
+.add-btn {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    span {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+}
+.title-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.text-center {
+    text-align: center;
+}
+.sort-space {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+    width: 100%;
+    margin-right: 20px;
+    input,
+    select {
+        border: 2px solid black;
+        border-radius: 50px;
+        padding: 0 1%;
+    }
+}
+.update-form {
+    display: flex;
+    justify-content: center;
+}
+.refresh-icon {
+    font-size: 2.2rem;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+}
+.button-pagination {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

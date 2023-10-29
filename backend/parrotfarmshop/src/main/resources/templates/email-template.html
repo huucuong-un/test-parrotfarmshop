@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h1 {
+            color: #333333;
+        }
+        p {
+            color: #555555;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Order Confirmation</h1>
+    <p>Dear <span th:text="${customerName}"></span>,</p>
+    <p>Thank you for placing your order with Online Shop. Below are the details of your order:</p>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr>
+            <td><span th:text="${productName}"></span></td>
+            <td><span th:text="${quantity}"></span></td>
+            <td><span th:text="${price}">VND</span></td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <h4>Total Amount: <span th:text="${totalAmount}"></span></h4>
+    <h4>Total Price: <span th:text="${totalAmount * price}"></span></h4>
+
+    <p>Thank you for shopping with us!</p>
+    <a th:href="${shopLink}" class="button">Visit Our Shop</a>
+</div>
+</body>
+</html>

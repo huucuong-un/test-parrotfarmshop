@@ -1,0 +1,19 @@
+.col-item-info {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-item {
+    padding: 2%;
+}
+
+.img-parrot {
+    text-align: center;
+    margin: auto auto;
+}
+.back-to-list:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

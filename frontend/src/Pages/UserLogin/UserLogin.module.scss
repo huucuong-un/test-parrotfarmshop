@@ -1,0 +1,207 @@
+.showHidePasswordBtn {
+    background-color: #f57c7c;
+    color: white;
+    font-size: 16px;
+    width: 1000px;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+}
+.container {
+    width: 80%;
+    height: 95%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #f9ede9;
+    padding: 20px;
+    border-radius: 12px;
+}
+.inner {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    padding-top: 5%;
+}
+
+.login-title {
+    font-size: 56px;
+    height: 20%;
+    padding: 0;
+}
+.notification {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    background-color: rgb(245, 98, 98);
+}
+.notification-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 10%;
+    margin: 51px 0 0 0;
+
+    h1 {
+        font-weight: 550;
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+    }
+}
+.inner-input {
+    width: 100%;
+    margin: 30px 0 0 0;
+
+    padding: 15px 20px 0px 20px;
+    hr {
+        margin-bottom: 40px;
+    }
+}
+
+//====Checkbox section=============
+.checkbox-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0 40px 0px;
+    padding: 0 20px;
+    height: 4.5rem;
+    font-size: 16px;
+    align-items: center;
+}
+
+.checkbox-section .section-forgot:hover {
+    text-decoration: underline;
+}
+
+.section-remember {
+    display: flex;
+    width: 74%;
+    gap: 10px;
+    p {
+        color: var(--text-color-input);
+    }
+}
+.checkBox {
+    width: 20%;
+}
+// .remember {
+//     overflow: hidden;
+//     font-size: 15px;
+// }
+
+.remember p {
+    //     overflow: hidden;
+    font-size: 15px;
+}
+
+.forgot {
+    min-width: 25px;
+    min-height: 35px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    height: 100%;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    p {
+        font-weight: bold;
+        color: var(--black);
+        font-size: 14px;
+        margin: 0;
+    }
+}
+// ========== Loginbtn==========
+.login-btn {
+}
+
+// ===========Login google =============
+.google-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ccc;
+    padding: 5px;
+    margin: 30px 0 20px 0;
+    overflow: hidden;
+}
+.google {
+    min-width: 60px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 3rem;
+    }
+    &:hover {
+        opacity: 0.9;
+    }
+}
+.login-title-container {
+    width: 100%;
+    height: 22%;
+}
+.register {
+    display: flex;
+    align-items: center;
+    gap: 180px;
+    justify-content: center;
+}
+
+.register-title-container {
+    padding: 0 30px;
+}
+
+.register-title {
+    font-size: 4.5rem;
+    margin: 0;
+    color: black;
+}
+.login-btn {
+    background-color: #f57c7c;
+}
+
+.inner-input,
+.login-title,
+.checkbox-section,
+.forgot,
+.google,
+.login-btn {
+    overflow: hidden;
+}

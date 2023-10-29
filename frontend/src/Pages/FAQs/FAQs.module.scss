@@ -1,0 +1,24 @@
+.container {
+    height: 1000px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faqs-title {
+    margin-bottom: 20px;
+}
+
+.accordion {
+    width: 70%;
+}
+.accord-item {
+    margin: 12px 0;
+    span {
+        overflow: hidden;
+    }
+    button {
+        font-size: 18px;
+    }
+}

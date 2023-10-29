@@ -1,0 +1,122 @@
+.wrapper {
+    padding: 20px 100px;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sort-item-container {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.sort-item {
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 20px;
+    border-radius: 50px;
+    p {
+        margin: 0;
+    }
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.sort-feedback-select {
+    border: 2px solid var(--black);
+    border-radius: 20px;
+    max-width: 150px;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.feedback-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+}
+
+.feedback-input input {
+    background-color: transparent;
+}
+
+.icon {
+    padding: 10px 20px;
+
+    &:hover {
+        background-color: #ccc;
+    }
+}
+
+.feedback-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+
+.feedback-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-avatar {
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-avatar img {
+    width: 100%;
+}
+
+.admin-avatar {
+    overflow: hidden;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.admin-avatar img {
+    width: 100%;
+}
+
+.feadback-date-and-type-container {
+    display: flex;
+    align-items: center;
+}
+
+.feadback-date {
+    padding: 0 5px;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.1);
+    font-size: 1.3rem;
+    color: var(--black-old);
+    opacity: 0.4;
+    font-weight: 600;
+}
+
+.feadback-type {
+    padding: 0 5px;
+    font-size: 1.3rem;
+    color: var(--black-old);
+    opacity: 0.4;
+    font-weight: 600;
+}
+.feadback-reply {
+    margin-left: 5%;
+}
+.reply-font {
+    font-size: 15px;
+}

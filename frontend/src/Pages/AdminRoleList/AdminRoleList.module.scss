@@ -1,0 +1,48 @@
+.add-button {
+    align-items: center;
+}
+
+.add-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.add-role-text {
+    margin: 0 5px;
+}
+
+.fade-container {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease, transition-delay 0.5s;
+}
+
+.fade-container.show {
+    opacity: 1;
+    max-height: 500px; /* Adjust this value based on your content height */
+    transition-delay: 0s; /* No delay when showing */
+}
+
+.fade-container.showUpdate {
+    opacity: 1;
+    max-height: 250px; /* Adjust this value based on your content height */
+    transition-delay: 0s;
+    margin-top: 2px;
+}
+
+.fade-container.hide {
+    opacity: 0;
+    max-height: 0;
+    transition-delay: 0.3s; /* Delay when hiding */
+}
+
+.edit-button {
+    height: 100%;
+    margin: 0;
+}
+
+.edit-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --black-old: #111;
+    --black: #242430;
+    --white: #f9f9f9;
+    --text-color: #242430;
+    --text-color-nav: #242430;
+    --btn-color: #f57c7c;
+    --nav-color: #f9ede9;
+    // --btn-color: #ec9493;
+
+    --custom-black: #111;
+    --custom-text-color: #111;
+    --custom-text-color-nav: #ffffff;
+    --custom-text-color-input: #ccc;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+    // overflow-y: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    color: var(--black);
+    // background-color: rebeccapurple;
+    overflow: hidden;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    // color: var(--text-color);
+    text-decoration: none;
+}

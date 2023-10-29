@@ -1,0 +1,109 @@
+.userprofile-container {
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.userprofile-item {
+    // margin-left: 50%;
+    // transform: translateX(-50%);
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 3% !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 5%;
+}
+
+.userprofile-item-2 {
+    height: 50%;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 2% !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.userprofile-item-header {
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: bold;
+    align-items: center;
+    margin: 5% 0 5% 0;
+}
+
+.userprofile-item-header label {
+    padding: 6%;
+
+    background-color: rgba(82, 82, 82, 0.115);
+    border-radius: 25px;
+}
+.userprofile-item-header-item{
+    display: flex;
+    justify-content: center;
+}
+.userprofile-item-header-item img {
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+}
+.userprofile-item-header-item button {
+    background-color: rgba(82, 82, 82, 0.115);
+    color: black;
+    border-radius: 25px;
+}
+
+.custom-file-label label {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.userprofile-item-body {
+    padding: 3%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.userprofile-item-body-item-info-name {
+    margin: 0;
+}
+.userprofile-item-body-item-info-edit {
+    display: inline-block;
+}
+.userprofile-item-body-item-info-edit button {
+    padding: 0 10% 0 10%;
+    margin-left: 70%;
+    background-color: rgba(82, 82, 82, 0.115);
+    color: black;
+    border-radius: 25px;
+}
+.userprofile-item-footer {
+}
+#collapseID {
+}
+.delivery-information-container {
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 3% !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.userprofile-item-footer button {
+    font-size: 2rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.userprofile-item-footer h5 {
+    text-align: center;
+}
+
+.delivery {
+    margin: 5% 0 5% 0;
+}
+.deliveryinformation {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.information {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: red;
+}
+.information-detail {
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+    font-weight: 500;
+}

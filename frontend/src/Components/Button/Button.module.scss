@@ -1,0 +1,84 @@
+.wrapper {
+    cursor: pointer;
+
+    .icon + .title,
+    .title + .icon {
+        margin-left: 3px;
+    }
+}
+
+//type of button
+.text {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-color-nav);
+    background-color: transparent;
+}
+
+.leftIcon {
+    background-color: transparent;
+}
+
+.add {
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-weight: 700;
+    background-color: var(--black-old);
+    color: var(--white);
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+.register {
+    margin-bottom: 120px;
+    border-radius: 12px;
+    font-weight: 700;
+    background-color: var(--black-old);
+    color: var(--white);
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+.editDeteleSwitch {
+    background-color: var(--black-old);
+    color: var(--white);
+    font-weight: 700;
+    padding: 0 10px;
+    min-width: 80px;
+    border-radius: 30px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.loginSystemBtn {
+    width: 45%;
+    padding: 20px 5px;
+    border-radius: 12px;
+    margin: 10px 0;
+    color: var(--text-color-input);
+    background-color: var(--black);
+    color: white;
+    font-weight: bold;
+    overflow: hidden;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+.backgroundColorBlue {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #319795; /* Background color */
+    color: white; /* Text color */
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+.backgroundColorBlue:hover {
+    background-color: #68d391; /* New background color on hover */
+}

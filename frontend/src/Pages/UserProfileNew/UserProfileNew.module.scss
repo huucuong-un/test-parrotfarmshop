@@ -1,0 +1,42 @@
+.tab-container {
+    height: 100%;
+}
+
+.account-info-container {
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.table-info-container {
+    padding: 3%;
+    border-right: 1px solid #e2e8f0;
+}
+
+.container {
+    height: 100%;
+}
+
+.gender-text {
+    margin-bottom: 0;
+    overflow: hidden;
+    font-size: 16px;
+}
+.text-userinfo {
+    font-size: 16px;
+    margin-bottom: 0;
+    height: 25px;
+    text-align: left;
+}
+.lbl-img {
+    background-color: #edf2f7;
+    padding: 3%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.lbl-img:hover {
+    background-color: #e2e8f0;
+}

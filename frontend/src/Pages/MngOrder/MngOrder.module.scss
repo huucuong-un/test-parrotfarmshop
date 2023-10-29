@@ -1,0 +1,63 @@
+.wrapper {
+    padding: 20px;
+}
+.inner {
+    margin-top: 5%;
+}
+
+.add-btn {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    span {
+        margin-left: 10px;
+    }
+}
+.sort-space-form {
+    display: flex;
+    gap: 10px;
+    padding: 0 20px;
+    justify-content: end;
+}
+
+.sort-space-form input {
+    padding: 0 3px;
+    max-width: 140px;
+    font-weight: 600;
+    border: 2px solid var(--black);
+    border-radius: 6px;
+}
+
+.sort-space-form select {
+    border: 2px solid var(--black);
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+// Table
+
+table,
+thead,
+tr,
+th,
+td {
+    font-size: 18px !important;
+    font-weight: 6000;
+    text-align: center;
+}
+.action-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+thead {
+    th {
+        text-align: center;
+    }
+}
+.center-text {
+    text-align: center;
+}

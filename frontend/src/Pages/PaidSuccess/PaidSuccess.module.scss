@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    width: 100%;
+    color: green;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.check-icon {
+    font-size: 5rem;
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

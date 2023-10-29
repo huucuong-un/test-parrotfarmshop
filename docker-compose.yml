@@ -1,0 +1,31 @@
+services:
+  back-end:
+    build:
+      context: backend/parrotfarmshop
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    environment:
+      DB_URL:  jdbc:mysql://mysql-container/parrotfarmshop?useSSL=false&allowPublicKeyRetrieval=true&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+      DB_USERNAME:  root
+      DB_PASSWORD:  12345
+    depends_on:
+      - mysql-container
+  front-end:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    ports:
+      - 80:3000
+    depends_on:
+      - back-end
+  mysql-container:
+    image:  mysql:8.0
+    volumes:
+      - dbdata:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: parrotfarmshop
+      MYSQL_ROOT_PASSWORD: 12345
+
+volumes:
+  dbdata:

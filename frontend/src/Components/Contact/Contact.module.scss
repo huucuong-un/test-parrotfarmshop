@@ -1,0 +1,22 @@
+.contact-logo {
+    width: 80px;
+    border-style: none;
+    div {
+        border-style: none;
+    }
+}
+.accordionItem {
+    position: fixed !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    z-index: 1;
+}
+.accordionButton {
+    &:hover {
+        background-color: transparent;
+    }
+}
+.logo {
+    color: #009dff;
+    font-size: 40px;
+}

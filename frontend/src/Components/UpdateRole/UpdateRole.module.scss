@@ -1,0 +1,47 @@
+.wrapper {
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 570px;
+    div {
+        overflow: hidden;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        padding: 2px;
+    }
+    th {
+        text-align: center;
+        background-color: #f57c7c;
+        color: var(--black);
+    }
+}
+// .table-container {
+//     width: 50%;
+// }
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    button {
+        width: 50%;
+        background-color: #f57c7c;
+        color: var(--black);
+        &:hover {
+            background-color: #f57c7c;
+            opacity: 0.7;
+        }
+    }
+}
+
+.haha {
+    display: flex !important;
+    align-items: center !important;
+    // justify-content: start;
+    width: 100%;
+    gap: 5px;
+}

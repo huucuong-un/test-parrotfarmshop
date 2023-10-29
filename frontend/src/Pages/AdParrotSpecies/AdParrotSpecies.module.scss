@@ -1,0 +1,95 @@
+.wrapper {
+    width: 100%;
+}
+
+.span-icon {
+    transition: transform 10s ease-in; /* Add a transition for the transform property */
+    margin-left: 10px;
+}
+
+.rotate-icon {
+    transform: rotate(180deg); /* Rotate the icon when clicked */
+}
+
+.sort-space-form {
+    display: flex;
+    gap: 10px;
+    padding: 0 20px;
+    justify-content: end;
+}
+
+.sort-space-form input {
+    padding: 0 3px;
+    max-width: 140px;
+    font-weight: 600;
+    border: 2px solid var(--black);
+    border-radius: 6px;
+}
+
+.sort-space-form select {
+    border: 2px solid var(--black);
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+thead {
+    background-color: var(--nav-color);
+    color: var(--text-color-nav);
+}
+
+thead tr th {
+    padding: 10px !important;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    padding: 10px 30px;
+}
+
+td.editable {
+    cursor: pointer;
+}
+
+input.editable-input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.status {
+    color: green;
+    font-weight: 700;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Define CSS classes for the transition */
+.rotate-icon {
+    transition: transform 0.3s ease-in-out; /* Add a transition for the transform property */
+}
+
+.rotate-icon-enter {
+    transform: rotate(0deg);
+}
+
+.rotate-icon-enter-active {
+    transform: rotate(180deg);
+}
+
+.rotate-icon-exit {
+    transform: rotate(180deg);
+}
+
+.rotate-icon-exit-active {
+    transform: rotate(0deg);
+}

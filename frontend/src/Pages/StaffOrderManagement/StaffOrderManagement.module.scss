@@ -1,0 +1,56 @@
+td {
+    text-align: center !important;
+}
+
+th {
+    text-align: center !important;
+}
+
+.title {
+    padding: 20px 0;
+}
+
+.sort-space {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+
+    input,
+    select {
+        border: 2px solid black;
+        border-radius: 50px;
+        padding: 0 1%;
+    }
+}
+
+.table-container {
+    margin-bottom: 20px;
+    min-height: 650px;
+}
+
+.button-pagination {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.number-page {
+    margin: 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.refresh-icon {
+    font-size: 2.2rem;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+}
